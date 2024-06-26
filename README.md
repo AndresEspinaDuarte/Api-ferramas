@@ -25,6 +25,27 @@ Como verá dentro de la carpeta estarán los múltiples componentes que harán f
 
 Dentro de esta terminal, usted escribirá este comando: "python manage.py runserver"
 
+Paso 2: Ejecutar frontend para consumir las API's
+====================================================
+
+Primero tener instalado nodejs , con los siguientes pasos:
+
+# installs fnm (Fast Node Manager)
+winget install Schniz.fnm
+
+# download and install Node.js
+fnm use --install-if-missing 20
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v20.15.0`
+
+# verifies the right NPM version is in the environment
+npm -v # should print `10.7.0`
+
+
+Segundo, ingresar a la carpeta de "frontend-api-ferramas" desde la terminal, luego ejecutar "npm i" para instalar todas las dependencias de nodejs y finalmente ejecutar el comando de "npm start"
+se abrira una web donde se estaran consumiendo las 3 api debe hacer scroll hacia abajo para ver el contenido.
+
 
 ADVERTENCIA:
 ====================
