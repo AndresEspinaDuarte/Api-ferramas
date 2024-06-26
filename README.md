@@ -30,16 +30,16 @@ Paso 2: Ejecutar frontend para consumir las API's
 
 Primero tener instalado nodejs , con los siguientes pasos:
 
-# installs fnm (Fast Node Manager)
+"installs fnm (Fast Node Manager)"
 winget install Schniz.fnm
 
-# download and install Node.js
+"download and install Node.js"
 fnm use --install-if-missing 20
 
-# verifies the right Node.js version is in the environment
+"verifies the right Node.js version is in the environment"
 node -v # should print `v20.15.0`
 
-# verifies the right NPM version is in the environment
+"verifies the right NPM version is in the environment"
 npm -v # should print `10.7.0`
 
 
